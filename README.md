@@ -15,7 +15,6 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Fun Facts**: Engaging tidbits about my interests and passions.
 - **Contact Form**: Functional form powered by Web3Forms with success animation.
 - **Scroll-to-Top**: Convenient button for easy navigation.
-- **SEO Optimized**: Includes meta tags, Open Graph, Twitter Card, and structured data for better visibility.
 
 ## Technologies Used
 
@@ -44,72 +43,6 @@ srijana-portfolio/
 ├── index.html            # Main HTML file
 └── README.md             # This file
 ```
-
-## Setup Instructions
-
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Edge, etc.).
-- Optional: A code editor (e.g., VS Code) for customization.
-- Optional: Git and a GitHub account for version control.
-
-### Local Setup
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Srijaanaa/srijana-portfolio.git
-   cd srijana-portfolio
-   ```
-2. **Open the Project**:
-   - Open `index.html` in a browser to view the site locally, or
-   - Use a local server (e.g., VS Code Live Server extension) for a better development experience:
-     ```bash
-     npx live-server
-     ```
-
-### Deployment
-To host the site online (e.g., on Netlify, Vercel, or GitHub Pages):
-1. **Push to GitHub**:
-   ```bash
-   git add .
-   git commit -m "Initial portfolio commit"
-   git push origin main
-   ```
-2. **Deploy**:
-   - **GitHub Pages**: Enable GitHub Pages in your repository settings, setting the source to the `main` branch.
-   - **Netlify**: Drag and drop the project folder into Netlify’s dashboard or link your GitHub repo for automatic builds.
-   - **Vercel**: Import the repo via Vercel’s dashboard and deploy.
-
-3. Update the following in `index.html` with your live domain:
-   - `<meta property="og:url">`
-   - `<meta property="og:image">`
-   - `<meta name="twitter:image">`
-   - Structured data (`url` and `sameAs`).
-
-## Customization
-
-- **Update Images**:
-  - Replace files in the `photos/` folder with your own (`logo.png`, `photo1.jpg`, `photo.jpg`, `project1.jpg`, etc.).
-  - Ensure `photo.jpg` (About Me) is portrait-oriented for the taller aspect ratio (220px × 330px desktop).
-- **Portfolio Projects**:
-  - Edit the portfolio section in `index.html` to link to your actual GitHub repos or live demos:
-    ```html
-    <a href="https://github.com/your-username/your-repo" target="_blank" class="portfolio-btn">View Project</a>
-    ```
-- **Contact Form**:
-  - Replace the Web3Forms `access_key` in `index.html` with your own:
-    ```html
-    <input type="hidden" name="access_key" value="your-access-key">
-    ```
-  - Get a free key at [Web3Forms](https://web3forms.com/).
-- **Volunteering Section**:
-  - Update the timeline in `index.html` with your experiences:
-    ```html
-    <div class="timeline-item">
-      <span class="year">Year</span>
-      <p>Your Role, Organization</p>
-    </div>
-    ```
-- **SEO**:
-  - Customize meta tags (`keywords`, `description`) and social media images for your branding.
 
 ## Contributing
 
